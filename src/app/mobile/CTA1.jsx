@@ -1,6 +1,6 @@
 import React from 'react';
 import MobileLockerGrid from './MobileGrid';
-import UseCase from './usecase';
+import UseCase from './Usecase';
 import {
   ShieldCheck,
   QrCode,
