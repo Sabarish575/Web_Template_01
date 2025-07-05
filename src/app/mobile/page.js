@@ -1,5 +1,5 @@
 import React from 'react'
-import Mobile from './mobile'
+import Mobile from './Mobile'
 
 function page() {
   return (
