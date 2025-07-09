@@ -1,6 +1,5 @@
 import React from 'react'
-import Howtouse from './howtouse'
-
+import Howtouse from './Howtouse'
 function page() {
   return (
     <div>
