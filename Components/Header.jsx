@@ -70,7 +70,7 @@ export default function Header() {
           </NavigationMenuItem>
 
           {[
-            { label: "How to Use", href: "/how-to-use" },
+            { label: "How to Use", href: "/howtouse" },
             { label: "FAQ", href: "/faq" },
             { label: "About Us", href: "/about" },
             { label: "News", href: "/news" },

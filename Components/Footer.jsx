@@ -1,5 +1,5 @@
 import React from 'react';
-
+import Link from 'next/link';
 function Footer() {
   return (
     <footer className="w-full bg-[#0f172a] text-[#fff0f5] py-10 px-6">
@@ -9,15 +9,15 @@ function Footer() {
 
         {/* Navigation Links */}
         <div className="grid grid-cols-2 gap-8 text-md md:text-base">
-          <div className="space-y-2">
-            <p className="hover:underline cursor-pointer">Home</p>
-            <p className="hover:underline cursor-pointer">Products</p>
+          <div className="flex flex-col space-y-2">
+            <Link href={'/home'} className="hover:underline cursor-pointer">Home</Link>
+            <Link href={'/product'} className="hover:underline cursor-pointer">Products</Link>
           </div>
-          <div className="space-y-2">
-            <p className="hover:underline cursor-pointer">How to Use</p>
-            <p className="hover:underline cursor-pointer">FAQ</p>
-            <p className="hover:underline cursor-pointer">About Us</p>
-            <p className="hover:underline cursor-pointer">News</p>
+          <div className="flex flex-col space-y-2">
+            <Link href={'/howtouse'} className="hover:underline cursor-pointer">How to Use</Link>
+            <Link href={'/faq'} className="hover:underline cursor-pointer">FAQ</Link>
+            <Link href={'/about'} className="hover:underline cursor-pointer">About Us</Link>
+            <Link href={'/news'} className="hover:underline cursor-pointer">News</Link>
           </div>
         </div>
       </div>
