@@ -73,7 +73,7 @@ export default function Header() {
             { label: "How to Use", href: "/howtouse" },
             { label: "FAQ", href: "/faq" },
             { label: "About Us", href: "/about" },
-            { label: "News", href: "/news" },
+
           ].map(({ label, href }) => (
             <NavigationMenuItem key={href}>
               <NavigationMenuLink asChild className="px-4 py-2 text-xl rounded-xl hover:bg-[#006400] hover:text-[#fff0f5] transition-colors cursor-pointer">
@@ -132,7 +132,6 @@ export default function Header() {
                 { label: "How to Use", href: "/how-to-use" },
                 { label: "FAQ", href: "/faq" },
                 { label: "About Us", href: "/about" },
-                { label: "News", href: "/news" },
               ].map(({ label, href }) => (
                 <SheetClose asChild key={href}>
                   <Link href={href} className="px-4 py-2 rounded-xl hover:bg-[#006400] hover:text-[#fff0f5] w-full">

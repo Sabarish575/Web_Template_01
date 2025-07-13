@@ -17,7 +17,6 @@ function Footer() {
             <Link href={'/howtouse'} className="hover:underline cursor-pointer">How to Use</Link>
             <Link href={'/faq'} className="hover:underline cursor-pointer">FAQ</Link>
             <Link href={'/about'} className="hover:underline cursor-pointer">About Us</Link>
-            <Link href={'/news'} className="hover:underline cursor-pointer">News</Link>
           </div>
         </div>
       </div>
