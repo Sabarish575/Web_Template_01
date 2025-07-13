@@ -5,7 +5,7 @@ function Footer() {
     <footer className="w-full bg-[#0f172a] text-[#fff0f5] py-10 px-6">
       <div className="max-w-7xl mx-auto flex flex-col md:flex-row md:items-center justify-between items-center gap-10">
         {/* Brand */}
-        <h1 className="text-5xl font-bold tracking-wide">YATIGO</h1>
+        <h1 className="text-5xl font-bold tracking-wide">YOUR TITLE</h1>
 
         {/* Navigation Links */}
         <div className="grid grid-cols-2 gap-8 text-md md:text-base">
@@ -27,8 +27,8 @@ function Footer() {
 
       {/* Contact Info */}
       <div className="max-w-7xl mx-auto flex flex-col sm:flex-row justify-between items-center sm:items-center gap-4 text-sm">
-        <p>📞 +91 90803 30074</p>
-        <p>✉️ support@yatigo.com</p>
+        <p>Your contact num goes here</p>
+        <p>✉️Your gmail goes here</p>
       </div>
 
       {/* Divider */}
@@ -36,8 +36,8 @@ function Footer() {
 
       {/* Footer Bottom */}
       <div className="max-w-7xl mx-auto flex flex-col sm:flex-row justify-between items-center text-xs text-gray-300">
-        <p>© 2025 Yatigo. All rights reserved.</p>
-        <p className="italic">Lobster Forged. Yatigo Awakened.</p>
+        <p>Copyright</p>
+        <p className="italic">Tagline</p>
       </div>
     </footer>
   );

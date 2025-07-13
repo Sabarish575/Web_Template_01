@@ -33,7 +33,7 @@ export default function Header() {
 
   return (
     <header className="w-full px-6 py-4 flex justify-between items-center uppercase font-semibold">
-      <h1 className="text-4xl md:text-5xl tracking-wider text-[#006400]">Yatigo</h1>
+      <h1 className="text-4xl md:text-5xl tracking-wider text-[#006400]">Your title</h1>
 
       {/* Desktop Nav */}
       <NavigationMenu className="hidden lg:block">
@@ -57,12 +57,12 @@ export default function Header() {
                 </li>
                 <li>
                   <NavigationMenuLink asChild className="block px-4 py-2 text-xl rounded hover:bg-[#006400] hover:text-[#fff0f5] transition-colors">
-                    <Link href="/baggage">BaggageLocker</Link>
+                    <Link href="/baggage">Module-1</Link>
                   </NavigationMenuLink>
                 </li>
                 <li>
                   <NavigationMenuLink asChild className="block px-4 py-2 text-xl rounded hover:bg-[#006400] hover:text-[#fff0f5] transition-colors">
-                    <Link href="/mobile">MobileLocker</Link>
+                    <Link href="/mobile">Module-2</Link>
                   </NavigationMenuLink>
                 </li>
               </ul>
@@ -117,12 +117,12 @@ export default function Header() {
                 <CollapsibleContent className="pl-6 flex flex-col gap-2">
                   <SheetClose asChild>
                     <Link href="/baggage" className="px-4 py-2 rounded-xl hover:bg-[#006400] hover:text-[#fff0f5]">
-                      BaggageLocker
+                      Module-1
                     </Link>
                   </SheetClose>
                   <SheetClose asChild>
                     <Link href="/mobile" className="px-4 py-2 rounded-xl hover:bg-[#006400] hover:text-[#fff0f5]">
-                      MobileLocker
+                      Module-2
                     </Link>
                   </SheetClose>
                 </CollapsibleContent>

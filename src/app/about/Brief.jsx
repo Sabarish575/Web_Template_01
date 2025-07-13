@@ -3,44 +3,44 @@ import Herosection from '../../../Components/Herosection';
 
 function Brief() {
 
-    const useCases = [
-    {
-        title: "Commute & Fitness",
-        description:
-        "You take a 45-minute metro to work, and on the way back you hit the gym. Your new fitness routine also has you carrying your high-protein lunch with you.",
-        video: "/videos/locker.mp4"
-    },
-    {
-        title: "After Work Hangouts",
-        description:
-        "You're going for a movie with your friends but you have your backpack from work or college.",
-        video: "/videos/locker.mp4"
-    },
-    {
-        title: "Shopping Burden",
-        description:
-        "The hassle of managing the load of shopping bags is too much.",
-        video: "/videos/locker.mp4"
-    },
-    {
-        title: "Layover in a New City",
-        description:
-        "Your flight breaks journey in a place you've never been to and you have a long layover.",
-        video: "/videos/locker.mp4"
-    },
-    {
-        title: "Cabin Bag Dilemma",
-        description:
-        "You want to go explore the city but what will you do with your cabin luggage?",
-        video: "/videos/locker.mp4"
-    },
-    {
-        title: "Phone Restrictions",
-        description:
-        "You're visiting a temple to pay your respects and realize they don't allow phones inside.",
-        video: "/videos/locker.mp4"
-    }
-    ];
+const useCases = [
+  {
+    title: "Daily Routine Needs",
+    description:
+      "Carrying essentials during your daily commute, including food, gear, or personal items, can be inconvenient without proper storage.",
+    video: "/videos/demo.mp4"
+  },
+  {
+    title: "Unexpected Plans",
+    description:
+      "Spontaneous meetups or activities can be hard to enjoy when you're burdened with bags from work or college.",
+    video: "/videos/demo.mp4"
+  },
+  {
+    title: "Heavy Loads",
+    description:
+      "Managing multiple bags after shopping or errands can be physically exhausting and stressful.",
+    video: "/videos/demo.mp4"
+  },
+  {
+    title: "Transit Wait Times",
+    description:
+      "Long layovers or travel delays in unfamiliar places often leave you with luggage and nowhere to go.",
+    video: "/videos/demo.mp4"
+  },
+  {
+    title: "Exploring Freely",
+    description:
+      "Touring a city or attending events is more enjoyable without dragging a suitcase or heavy backpack.",
+    video: "/videos/demo.mp4"
+  },
+  {
+    title: "Restricted Areas",
+    description:
+      "Some venues or locations restrict carrying phones or other personal items, which can be inconvenient without a secure storage option.",
+    video: "/videos/demo.mp4"
+  }
+];
 
 
 

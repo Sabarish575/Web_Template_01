@@ -6,18 +6,18 @@ import { useEffect, useState } from "react";
 
 const locations = [
   {
-    city: "Madurai",
-    places: "Periyar, Meenakshi Temple",
+    city: "City1",
+    places: "places",
     status: "Live",
   },
   {
-    city: "Chennai",
-    places: "Central, Egmore, T. Nagar, Marina",
+    city: "City 2",
+    places: "places",
     status: "Live",
   },
   {
     city: "20+ Cities",
-    places: "Coimbatore, Trichy, Kochi, Vizag, Bengaluru, Jaipur...",
+    places: "places",
     status: "Coming Soon",
   },
 ];

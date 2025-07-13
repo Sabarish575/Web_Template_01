@@ -15,8 +15,8 @@ export function Prices() {
 
       <PointerHighlight>
         <p className="mt-8 text-xl px-3 py-2 sm:text-2xl md:text-3xl font-semibold leading-relaxed md:px-6 md:py-4 rounded-md text-center">
-          <span className="text-[#006400] text-2xl sm:text-3xl font-bold">&#8377;</span> 20 for 12 hrs,&nbsp;
-          <span className="text-[#006400] text-2xl sm:text-3xl font-bold">&#8377;</span> 30 for 24 hrs.
+          <span className="text-[#006400] text-2xl sm:text-3xl font-bold">&#8377;</span>your fillers&nbsp;
+          <span className="text-[#006400] text-2xl sm:text-3xl font-bold">&#8377;</span>your fillers
           <br/>
           <span className="text-gray-700">Pay via UPI or Card.</span>
         </p>
