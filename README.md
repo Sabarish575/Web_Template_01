@@ -20,7 +20,7 @@ A modern, responsive web template to showcase common real-world scenarios for te
 - [Next.js](https://nextjs.org/) – React Framework for production
 - [Tailwind CSS](https://tailwindcss.com/) – Utility-first CSS framework
 - [React Icons (Optional)](https://react-icons.github.io/react-icons/) – For easily adding scalable icons (if used)
-- [Vercel](https://yatigo-frontend.vercel.app/) – Optional deployment platform for Next.js apps and a sample deployed one (click the vercel to see the deployed one!)
+- [Hosted site](https://yatigo-frontend.vercel.app/) – Optional deployment platform for Next.js apps and a sample deployed one (click the vercel to see the deployed one!)
 
 ---
 
